@@ -31,8 +31,14 @@ The main function to parse HTML content and extract key ad information.
     - `link`: The ad link on Divar's website.
     - `description`: The ad description retrieved via the API.
     - `price`: The price of the ad.
+### For install important Libraries
+```python
+pip install -r requirements
+```
+
 
 ### Example Usage
 ```python
 url = 'https://divar.ir/s/iran/restaurant-equipment?goods-business-type=personal'
 print(divar_api(url))
+```
